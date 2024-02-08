@@ -1,4 +1,4 @@
-# InNOutSentimentAnalysis
+# In-N-Out Sentiment Analysis
 
 This project utilizes Yelp API and web scraping techniques to perform data visualization, sentiment analysis, and classification using machine learning models.
 
@@ -9,10 +9,12 @@ The project retrieves data from Yelp using the Yelp API and web scraping techniq
 ## Data Visualization
 
 - Implemented exploratory data analysis to show the distribution of customer ratings.
-  ![Distribution](/screenshots/distribution.PNG)
+  
+  ![ScreenShot](/screenshots/distribution.png)
   
 - Created a word cloud to visualize the most common words in reviews.
-  ![Word Cloud](/screenshots/wordcloud.PNG)
+  
+  ![ScreenShot](/screenshots/wordcloud.png)
 
 ## Machine Learning
 
@@ -25,4 +27,4 @@ Trained models for Logistic Regression and Naive Bayes classifiers to predict cu
 - **Recall**: Measures the proportion of true positive predictions out of all actual positive instances in the dataset.
 - **F1 Score**: The mean of precision and recall, helpful in cases where there is an imbalance between classes.
   
-  ![Metrics](/screenshots/metric.PNG)
+  ![ScreenShot](/screenshots/metric.png)
