@@ -15,6 +15,6 @@ jobs:
 
     steps:
       - name: Use environment variables
-      run: |
-        echo "Using API Key: $API_KEY"
-        echo "USING CLIENT_ID: $CLIENT_ID"
+        run: |
+          echo "Using API Key: $API_KEY"
+          echo "USING CLIENT_ID: $CLIENT_ID"
