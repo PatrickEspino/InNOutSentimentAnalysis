@@ -1,0 +1,20 @@
+name: Workflow
+
+on:
+  push:
+      branches:
+        - main
+
+env:
+  CLIENT_ID: ${{ secrets.CLIENT_ID }}
+  API_KEY: ${{ secrets.API_KEY }}
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+
+    steps:
+      - name: Use environment variables
+      run: |
+        echo "Using API Key: $API_KEY"
+        echo "USING CLIENT_ID: $CLIENT_ID"
